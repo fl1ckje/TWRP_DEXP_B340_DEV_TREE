@@ -15,8 +15,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := cortex-a7
 
-#BOARD_USES_MTK_HARDWARE := true
-
 # Kernel properties
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 buildvariant=user androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
@@ -66,7 +64,6 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_DEFAULT_LANGUAGE := ru
 TW_DEVICE_VERSION := fl1ckje
 TW_EXCLUDE_SUPERSU := true
-#TW_MTP_DEVICE := /dev/mtp_usb 
 TW_HAS_MTP := true
 ARCH_ARM_HAVE_NEON := true
 ARCH_ARM_HAVE_ARMV7A := true
