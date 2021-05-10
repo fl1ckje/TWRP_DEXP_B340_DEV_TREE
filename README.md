@@ -1,5 +1,5 @@
 # TWRP_DEXP_B340_DEV_TREE
-The device tree of DEXP B340. Created for building TWRP from source
+The device tree of DEXP B340. Created for building TWRP from source.
 Before build:
 
 sudo apt purge openjdk-11*
